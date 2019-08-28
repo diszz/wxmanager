@@ -1,0 +1,36 @@
+/***********************************************
+* boostrap 定制
+***********************************************/
+.container,.container-fluid{max-width:960px}
+
+/** 重要级别样式**/
+.first {color:#333}
+.first a:link{color:#222}
+.first a:visited{color:#666}
+.first a:hover{color:#369}
+.first a:active{color:#369}
+.second {color:#666}
+.second a:link{color:#222}
+.second a:visited{color:#666}
+.second a:hover{color:#369}
+.second a:active{color:#369}
+
+/** 按钮调整 **/
+.label .label-while{background-color:#fff;}
+
+/** 模态框调整 **/
+.modal-dialog{margin: 50px auto;}
+
+
+.hr1{margin-top:0}
+
+/***********************************************
+* 主内容区
+***********************************************/
+#main{min-height:500px}
+
+
+#today_activity_list .join_activity{margin:5px}
+
+#yesterday_activity_list .join_activity{margin:5px 0}
+

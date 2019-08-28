@@ -1,0 +1,33 @@
+
+/** boostrap 定制 */
+
+.alert{margin-bottom:5px;padding-top:5px;padding-bottom:5px;}
+
+#index .dl-horizontal dt{margin:5px 0;width: 100px;}
+#index .dl-horizontal dd{margin:5px 0 0 120px;}
+#index .about .dl-horizontal dt{margin:5px 0;width: 150px;}
+#index .about .dl-horizontal dd{margin:5px 0 0 160px;}
+
+/** 重要级别样式**/
+.first {color:#333}
+.first a:link{color:#222}
+.first a:visited{color:#666}
+.first a:hover{color:#369}
+.first a:active{color:#369}
+.second {color:#666}
+.second a:link{color:#222}
+.second a:visited{color:#666}
+.second a:hover{color:#369}
+.second a:active{color:#369}
+
+
+/** 首页 ****/
+#index_index .dl-horizontal dt{width:50px;margin:3px 0;}
+#index_index .dl-horizontal dd{margin:3px 0 5px 80px;}
+#index_index .dl-horizontal dd .label{margin:3px;padding:.1em .6em .1em;}
+#index_index .dl-horizontal dd .label a{color:#333;}
+.label .label-while{background-color:#fff;}
+
+
+small{font-size: 80%;color: #777;font-weight: normal;line-height: 1;}
+
