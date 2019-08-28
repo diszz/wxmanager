@@ -62,23 +62,23 @@
 	<div class="simple-panel-body">
 		<dl>
 		<dt>后台首页</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318231636.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318231636.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>编辑站点</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318231702.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318231702.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>系统设置</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318231716.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318231716.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>微信站点首页</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318231737.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318231737.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>关键词管理</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318232053.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318232053.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>编辑关键词</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318232112.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318232112.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>文章分类</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318232112.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318232112.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>礼包管理</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318232431.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318232431.png" alt="" style="width:600px;height:300px;"></dd>
 		<dt>编辑签到</dt>
-		<dd><img class="img-responsive" src="/wxmanager/images/source/20160318232744.png" alt="" style="width:600px;height:300px;"></dd>
+		<dd><img class="img-responsive" src="http://123.56.74.123:8802/resource/images/screenshots/20160318232744.png" alt="" style="width:600px;height:300px;"></dd>
 		</dl>
 	</div>
 </div>
