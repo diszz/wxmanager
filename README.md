@@ -21,7 +21,7 @@
 	<div class="simple-panel-body">
 		<h3>下载地址</h3>
 	<p>
-		github.com&nbsp;&nbsp;<a href="https://github.com/lihuixu/wxmanager">lihuixu/wxmanager</a><br />
+		github.com&nbsp;&nbsp;<a href="https://github.com/diszz/wxmanager">diszz/wxmanager</a><br />
 	</p>
 	<h3>安装运行</h3>
 	<p>运行环境:Linux + Nginx + Mysql + PHP</p>
