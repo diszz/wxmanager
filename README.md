@@ -1,6 +1,7 @@
 # wxmanager
 微信公众号管理系统
 
+
 <div class="simple-panel simple-panel-default">
 	<div class="simple-panel-heading">
 		<h3 class="simple-panel-title">系统简述</h3>
