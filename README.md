@@ -95,7 +95,7 @@
 	    </div>
 	    <div>
 		<h3>Email</h3>
-		<p>admin@diszz.com</p>
+		<p>87257302@qq.com</p>
 	    </div>
 	    <div>
 		<h3>访问测试版</h3>
