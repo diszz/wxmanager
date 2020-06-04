@@ -99,7 +99,7 @@
 	    </div>
 	    <div>
 		<h3>访问测试版</h3>
-		<p><a href="http://123.56.74.123:8802/" target="_blank">DEMO</a></p>
+		<p><a href="http://wxmanager.diszz.com/" target="_blank">DEMO</a></p>
 	    </div>
 	</div>
 </div>
