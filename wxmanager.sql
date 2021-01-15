@@ -666,7 +666,7 @@ CREATE TABLE `keyword` (
   `keyword_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `site_id` int(11) unsigned NOT NULL DEFAULT '0',
   `name` varchar(60) NOT NULL DEFAULT '' COMMENT '关键词',
-  `type` enum('text','image','voice','video','music','news') NOT NULL,
+  `type` enum('text','image','voice','video','music','news') NOT NULL DEFAULT 'text',
   `content` varchar(255) NOT NULL DEFAULT '',
   `object` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '挂载对象,0word,1relation,2code,3signin,4lottery,5article,6文章分类',
   `object_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '挂载对象ID',
@@ -682,8 +682,6 @@ CREATE TABLE `keyword` (
 -- Records of keyword
 -- ----------------------------
 INSERT INTO `keyword` VALUES ('1', '1', '网站', 'text', '您好, 我们的网站是{url}.', '0', '0', '', '0', '0', '0');
-INSERT INTO `keyword` VALUES ('3', '1', '资讯', '', '{}', '6', '6', 'a:1:{s:5:\"count\";s:1:\"4\";}', '9', '0', '0');
-INSERT INTO `keyword` VALUES ('5', '1', '菜单', '', '我们的菜单是', '1', '0', 'a:1:{s:5:\"count\";s:1:\"5\";}', '5', '3', '0');
 INSERT INTO `keyword` VALUES ('9', '1', '红烧茄子', 'text', '红烧茄子红烧茄子', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('12', '1', 'hi', 'text', '您好, 使用愉快', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('13', '0', '扫描关注', 'text', '感谢您的关注', '0', '0', '', '0', '0', '0');
@@ -694,7 +692,7 @@ INSERT INTO `keyword` VALUES ('18', '2', '22', 'text', '22', '3', '0', '', '0', 
 INSERT INTO `keyword` VALUES ('20', '2', '22', 'text', '22222', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('21', '2', '222', 'text', '22', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('22', '2', '222', 'text', '222', '0', '0', '', '0', '0', '0');
-INSERT INTO `keyword` VALUES ('28', '1', '宫保鸡丁 鸡丁', '', '宫保鸡丁是汉族传统经典的名菜，鲁菜和川菜都有该道菜的做法，但是用料有所差别。创始人为贵州织金人丁宝桢，在任山东巡抚时创制该菜，后任四川总督时加以改良，流传至今。此道菜也被归纳为北京宫廷菜。', '0', '0', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '0', '0');
+INSERT INTO `keyword` VALUES ('28', '1', '宫保鸡丁 鸡丁', 'text', '宫保鸡丁是汉族传统经典的名菜，鲁菜和川菜都有该道菜的做法，但是用料有所差别。创始人为贵州织金人丁宝桢，在任山东巡抚时创制该菜，后任四川总督时加以改良，流传至今。此道菜也被归纳为北京宫廷菜。', '0', '0', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('29', '1', '红烧排骨', 'text', '红烧排骨，家常菜。此菜味道香咸，排骨酥烂，色泽金红。一般人都可食用。适宜于 气血不足，阴虚纳差者；湿热痰滞内蕴者慎服；肥胖、血脂较高者不宜多食', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('30', '2', '景区', 'text', '北京的景区', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('31', '2', '圆明园', 'text', '圆明园圆明园圆明园', '0', '0', '', '0', '0', '0');
@@ -706,10 +704,10 @@ INSERT INTO `keyword` VALUES ('37', '9', '21', 'text', '222', '0', '0', '', '0',
 INSERT INTO `keyword` VALUES ('38', '9', '21', 'text', '222', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('39', '9', '44', 'text', '44', '0', '0', '', '0', '0', '0');
 INSERT INTO `keyword` VALUES ('40', '9', '1212礼包', 'text', '礼包码是:', '3', '0', '', '0', '0', '0');
-INSERT INTO `keyword` VALUES ('41', '1', '红包', '', '红包11111111222', '7', '1', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '1', '0');
+INSERT INTO `keyword` VALUES ('41', '1', '红包', 'text', '红包11111111222', '7', '1', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '1', '0');
 INSERT INTO `keyword` VALUES ('45', '1', '礼包 礼包码是{},哈哈哈', 'text', '礼包 礼包码是{},哈哈哈', '0', '0', '', '0', '0', '0');
-INSERT INTO `keyword` VALUES ('46', '1', '礼包', '', '您的礼包码是{},哈哈哈哈哈!@!@!', '2', '3', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '0', '0');
-INSERT INTO `keyword` VALUES ('47', '1', '签到1 签名二', '', '', '3', '1', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '0', '1458281772');
+INSERT INTO `keyword` VALUES ('46', '1', '礼包', 'text', '您的礼包码是{},哈哈哈哈哈!@!@!', '2', '3', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '0', '0');
+INSERT INTO `keyword` VALUES ('47', '1', '签到1 签名二', 'text', '', '3', '1', 'a:1:{s:5:\"count\";s:1:\"5\";}', '0', '0', '1458281772');
 
 -- ----------------------------
 -- Table structure for keyword_alias
